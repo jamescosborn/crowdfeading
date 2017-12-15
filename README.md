@@ -1,6 +1,6 @@
 # Crowdfunding
 
-#
+# LEFT OFF @: end of dynamic routing navigation lesson
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.

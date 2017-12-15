@@ -3,7 +3,7 @@
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/eburin2/crowdfeading",
   "ignore": [
     "**/.*",
     "node_modules",

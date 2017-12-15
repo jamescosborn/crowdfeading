@@ -1,0 +1,20 @@
+
+{ "projects": [{
+  "title": " Free Cheeseburgers",
+  "description": "Throwing cheeseburgers out the window of my car",
+  "members": " James and Elliot",
+  "money":  20,
+  "plans": " get money",
+  "incentives": " Get cheeseburgers",
+  "id": 1
+}, {
+  "title": " Save the Walruses forget the whales",
+  "description": "Throwing cheeseburgers out the window of my car",
+  "members": " James and Elliot",
+  "money":  25,
+  "plans": " get money",
+  "incentives": " Membership Jacket",
+  "id": 2
+}]
+
+}

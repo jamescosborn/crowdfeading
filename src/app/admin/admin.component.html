@@ -1,0 +1,27 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Project to List</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Project Title:</label>
+        <br>
+        <input #newTitle>
+      </div>
+
+      <div>
+        <label>Project Members:</label>
+        <br>
+        <input #newMembers>
+      </div>
+
+      <div>
+        <label>Project Description:</label>
+        <br>
+        <textarea #newDescription></textarea>
+      </div>
+      <button (click)="submitForm(newTitle.value, newDescription.value, newMembers.value); newTitle.value=''; newDescription.value=''; newMembers.value='';">Add</button>
+    </div>
+  </div>
+</div>

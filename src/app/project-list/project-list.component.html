@@ -1,3 +1,8 @@
-<h2>Marketplace</h2>
+<h2>Project List</h2>
 
-<p>All our fine products will be listed here shortly!</p>
+<div *ngFor="let project of projects | async" (click)="goToDetailPage(project)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{project.title}}</em></h3>
+    <h2>{{project.members}}</h2>
+  </div>
+</div>
